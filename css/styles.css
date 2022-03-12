@@ -211,7 +211,7 @@ input {
 }
 
 .nav__logo, .nav__toggle {
-  color: var(--white-color);
+  color: var(--text-color);
 }
 
 .nav__logo {
@@ -657,8 +657,12 @@ input {
   font-size: var(--small-font-size);
 }
 
-.place__subtitle, .place__price {
+/*.place__subtitle, .place__price {
   display: block;
+}*/
+
+.place__title, .place__subtile, place__price {
+  display: none;
 }
 
 .place__title {
