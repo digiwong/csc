@@ -661,7 +661,7 @@ input {
   display: block;
 }*/
 
-.place__title, .place__subtile, .place__price {
+.place__title, .place__subtitle, .place__price {
   display: none;
 }
 
